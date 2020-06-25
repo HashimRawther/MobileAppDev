@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Just a text dir to learn git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashimRawther/MobileAppDev.git"
+  },
+  "keywords": [
+    "git",
+    "node"
+  ],
+  "author": "Hashim Rawther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashimRawther/MobileAppDev/issues"
+  },
+  "homepage": "https://github.com/HashimRawther/MobileAppDev#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
